@@ -1,0 +1,58 @@
+body {
+  display: grid;
+  background: linear-gradient(147deg, #d50000, #ba24c7);
+  color: white;
+  padding: 20px 30px;
+}
+
+a {
+  color: #ffe07a;
+  font-size: 32px;
+}
+
+#text-wrap {
+  color: white;
+}
+
+#gas-aint-free {
+  float: right;
+}
+
+#monkey-problems {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#progress {
+  width: 90%;
+  margin: 0 auto;
+}
+
+progress {
+  width: 100%;
+  height: 30px;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+}
+progress::-webkit-progress-value {
+  background: #00ba00;
+}
+
+#videographers #carlos {
+  margin-bottom: 10px;
+}
+#videographers a {
+  display: flex;
+  align-items: center;
+}
+#videographers img {
+  width: 150px;
+  margin-left: 10px;
+}
